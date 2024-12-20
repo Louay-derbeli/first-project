@@ -1,0 +1,80 @@
+body{background-image: url(../images/background1.webp);}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.login-container {
+    background-color: #D3D3D3;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 300px;
+}
+
+
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.form {
+    margin-bottom: 15px;
+}
+
+
+.form label {
+    display: block;
+    font-weight: bold;
+}
+
+.form input,
+.form select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+.form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.form button:hover {
+    background-color: #45a049;
+}
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 150px; 
+}
+
+.logo img {
+    width: 150%;
+    height: auto;}
+    .smaller-carousel {
+        margin-top: 30px; /* Adds space above the carousel */
+        max-width: 80%; /* Adjusts the width of the carousel */
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .smaller-carousel .carousel-item img {
+        height: 300px; /* Adjust the height as needed */
+        object-fit: cover;
+    }
